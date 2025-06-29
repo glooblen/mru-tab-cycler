@@ -1,21 +1,26 @@
 # MRU Tab Cycler
 
-Cycle through your Chrome tabs in **Most Recently Used (MRU)** order, just like `Alt+Tab` for applications.
+MRU Tab Cycler is a Chrome extension that enables keyboard-based tab switching in **Most Recently Used (MRU)** order — similar to `Alt+Tab` behavior for applications.
 
-## 🔧 Features
+Chrome’s default tab switching is linear (`Ctrl+Tab`), but this extension gives you back-and-forth navigation between your most recently used tabs.
 
-- Keeps track of your recent tab history
-- Switches to the last-used tab with a keyboard shortcut
-- Toggles repeatedly between your two most recent tabs
-- Lightweight, memory-safe, and fast
+## Features
 
-## ⌨️ Default Shortcut
+- Switch to your last-used tab with a single keyboard shortcut
+- Tracks tab focus in real time
+- Toggle repeatedly between your two most recent tabs
+- Does not require any external APIs or cloud services
 
-`Ctrl + Shift + 1` — customizable via `chrome://extensions/shortcuts`
+## Shortcut
 
-## 📦 Installation
+- Default: `Ctrl + Shift + 1`
+- You can customize it at: `chrome://extensions/shortcuts`
 
-1. Clone the repo:
+## Installation
+
+### From Source
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mru-tab-cycler.git
+   git clone https://github.com/glooblen/mru-tab-cycler.git
    cd mru-tab-cycler
