@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "MRU Tab Cycler",
+  "version": "1.0",
+  "description": "Cycle through tabs based on most recently used order.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "cycle-mru-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1"
+      },
+      "description": "Switch to last used tab"
+    }
+  }
+}
